@@ -2,7 +2,7 @@
 
 Find backend engineers in Ghent from inside Claude or Cursor, with one config file and one question.
 
-**[Get your free API key](https://recruitmcp.com/console#start)**: 1,250 free credits once your email is confirmed. No card needed.
+**[Get your free API key](https://recruitmcp.com/login)**: 1,250 free credits. No card needed.
 
 <!-- SLOT: COPY-INTO-YOUR-CODING-AGENT PROMPT (Lukas)
      Status 2026-10-19: not yet on recruitmcp.com (checked docs, console, llms.txt, llms-full.txt).
@@ -18,10 +18,9 @@ Find backend engineers in Ghent from inside Claude or Cursor, with one config fi
 
 ## 1. Get your key (1 minute)
 
-1. Open [recruitmcp.com/console#start](https://recruitmcp.com/console#start).
-2. Continue with GitHub, Google or email.
-3. Copy your API key. It starts with `rmcp_live_` and is shown only once.
-4. Confirm your email. Your 1,250 free credits land after that.
+1. Open [recruitmcp.com/login](https://recruitmcp.com/login).
+2. Continue with GitHub, Google or email (you get a sign-in link by email).
+3. Your first sign-in creates your workspace with 1,250 free credits and opens a **Your API key** popup. Copy the key right away. It starts with `rmcp_live_` and is shown only once.
 
 Keep the key out of your code and out of git. Put it in an environment variable:
 
@@ -164,11 +163,10 @@ The `X-Credits-Charged` response header shows what the call spent.
 
 - **401 or no tools in Cursor:** check that you used `${env:RECRUITMCP_KEY}` and that Cursor was started with the variable set.
 - **No tools in Claude Code:** start it from the shell where you ran `export RECRUITMCP_KEY=...`, then check `/mcp`.
-- **Balance is 0:** confirm your email. The 1,250 free credits arrive after that.
 - **Missing a tool:** `tools/list` only shows the tools your key's scopes allow.
 
 Full reference: [recruitmcp.com/docs](https://recruitmcp.com/docs) and [recruitmcp.com/docs/mcp](https://recruitmcp.com/docs/mcp).
 
 ## Ready?
 
-**[Get your free API key](https://recruitmcp.com/console#start)** and run your first search in the next 5 minutes. 1,250 free credits once your email is confirmed.
+**[Get your free API key](https://recruitmcp.com/login)** and run your first search in the next 5 minutes. 1,250 free credits.
