@@ -2,13 +2,8 @@
 
 Find backend engineers in Ghent from inside Claude or Cursor, with one config file and one question.
 
-**[Get your free API key](https://recruitmcp.com/login)**: 1,250 free credits. No card needed.
+**[Get your free API key](https://recruitmcp.com/login?utm_source=github&utm_medium=tutorial&utm_campaign=first-call)**: 1,250 free credits. No card needed.
 
-<!-- SLOT: COPY-INTO-YOUR-CODING-AGENT PROMPT (Lukas)
-     Status 2026-10-19: not yet on recruitmcp.com (checked docs, console, llms.txt, llms-full.txt).
-     When it is live, replace this comment with a short intro line, the prompt block
-     and a link to its page on recruitmcp.com. -->
-> **Using a coding agent?** A ready-made "copy into your coding agent" prompt is coming soon. It will sit here.
 
 ## What you need
 
@@ -18,7 +13,7 @@ Find backend engineers in Ghent from inside Claude or Cursor, with one config fi
 
 ## 1. Get your key (1 minute)
 
-1. Open [recruitmcp.com/login](https://recruitmcp.com/login).
+1. Open [recruitmcp.com/login](https://recruitmcp.com/login?utm_source=github&utm_medium=tutorial&utm_campaign=first-call).
 2. Continue with GitHub, Google or email (you get a sign-in link by email).
 3. Your first sign-in creates your workspace with 1,250 free credits and opens a **Your API key** popup. Copy the key right away. It starts with `rmcp_live_` and is shown only once.
 
@@ -125,7 +120,7 @@ Behind the scenes your client makes three tool calls:
 
 You get a short profile per person: `full_name`, current position, `location`, `profile_id` and `profile_url`. The response also has `cost.credits`, so you always see what a call spent.
 
-From here, ask for full profiles of the people you like (`enrich_profiles`), save them to a list (`save_to_list`), or narrow the search with more filters. Outreach is coming soon.
+From here, ask for full profiles of the people you like (`enrich_profiles`), save them to a list (`save_to_list`), or narrow the search with more filters.
 
 ## Prefer curl?
 
@@ -165,8 +160,8 @@ The `X-Credits-Charged` response header shows what the call spent.
 - **No tools in Claude Code:** start it from the shell where you ran `export RECRUITMCP_KEY=...`, then check `/mcp`.
 - **Missing a tool:** `tools/list` only shows the tools your key's scopes allow.
 
-Full reference: [recruitmcp.com/docs](https://recruitmcp.com/docs) and [recruitmcp.com/docs/mcp](https://recruitmcp.com/docs/mcp).
+Full reference: [recruitmcp.com/docs](https://recruitmcp.com/docs?utm_source=github&utm_medium=tutorial&utm_campaign=first-call) and [recruitmcp.com/docs/mcp](https://recruitmcp.com/docs/mcp?utm_source=github&utm_medium=tutorial&utm_campaign=first-call).
 
 ## Ready?
 
-**[Get your free API key](https://recruitmcp.com/login)** and run your first search in the next 5 minutes. 1,250 free credits.
+**[Get your free API key](https://recruitmcp.com/login?utm_source=github&utm_medium=tutorial&utm_campaign=first-call)** and run your first search in the next 5 minutes. 1,250 free credits.
